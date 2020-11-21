@@ -17,5 +17,5 @@ The CloudIO operation consists of the following actions:
   - Arduino measures the temperature and the humidity and sends it through the USB.
   - The software gets the data, that comes in the following pattern:
     "temperature signal + temperatureTen + temperatureUnit + temperatureDecimalPart + ';' + humidityHundred + humidityTen + humidityUnit + humidityDecimalPart"
-    So, if the temperature measured was </b>82.2°C</b> and the humidity was of <b>22.0%</b> the string sent will be: <b>+822;220</b>
+    So, if the temperature measured was <b>82.2°C</b> and the humidity was of <b>22.0%</b> the string sent will be: <b>+822;220</b>
   
