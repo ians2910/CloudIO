@@ -29,4 +29,9 @@ The CloudIO operation consists of the following actions:
   The string saved at the file is made in the mentioned way just because it makes the .txt file readable by services such as Excel and PowerBI, being the tab a separator of columns and the enter a separator of lines.
   When the user opens the PowerBI dashboard, the system applies the made filters and is able to convert the temperature to Celsius, Kelvin and Fahrenheit beyond allowing the user to select a certain range of time to analyze at the graphics.
   
+The present files at this repository and its respective functions are:
+  - A paste with all the codes in LabVIEW language. If you want to test the system you should download all the files from this paste and execute the file "TCC Main.vi" with a 2020 or future version of LabVIEW software.
+  - The file "TCC.pibx" that contains the projected dashboard.
+  - The files "TCC-Final.ino" and "Test.ino" used, respectively, to use the sensor DHT22 and to simulate a DHT22 sensor using a potentiometer.
+  - The file "Dados Novo.txt" that stores the data used so far during the tests of the project.
   
