@@ -13,7 +13,7 @@ The system is composed by 4 parts:
   - A dynamic dashboard made with PowerBI
 
 The CloudIO operation consists of the following actions:
-  - The software asks Arduino, via serial port, for the measured data.
+  - The software requires from Arduino, via serial port, the measured data.
   - Arduino measures the temperature and the humidity and sends it through the USB.
   - The software gets the data, that comes in the following pattern:
     <b>temperature signal + temperatureTen + temperatureUnit + temperatureDecimalPart + ';' + humidityHundred + humidityTen + humidityUnit + humidityDecimalPart</b>
